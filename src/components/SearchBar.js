@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const SearchBar = ({ onFormSubmit }) => {
-  const [term, setTerm] = useState("");
+  const [term, setTerm] = useState('');
 
   const onSubmit = (event) => {
     event.preventDefault();
@@ -23,9 +23,5 @@ const SearchBar = ({ onFormSubmit }) => {
     </div>
   );
 };
-
-// class SearchBar extends React.Component {
-//   render() {}
-// }
 
 export default SearchBar;
